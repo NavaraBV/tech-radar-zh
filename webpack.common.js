@@ -2,16 +2,17 @@
 
 const webpack = require('webpack')
 const path = require('path')
+const fs = require('fs')
 const buildPath = path.resolve(__dirname, 'dist')
 const args = require('yargs').argv
+const envPath = args.envFile ?? path.resolve(__dirname, '.env')
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
-const env = args.envFile
-if (env) {
+if (fs.existsSync(envPath)) {
   // Load env file
-  require('dotenv').config({ path: env })
+  require('dotenv').config({ path: envPath })
 }
 
 const common = ['./src/common.js']

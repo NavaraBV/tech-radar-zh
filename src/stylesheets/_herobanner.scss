@@ -3,9 +3,8 @@
 
 @if $UIRefresh2022 {
   .hero-banner {
-    height: $tabletBannerHeight;
-    background-color: $amethyst;
-    background-image: url('/images/banner-image-mobile.jpg');
+    height: 80px;
+    background-color: var(--color-navy);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -13,16 +12,6 @@
     display: flex;
     align-items: center;
     margin: 0 !important;
-
-    @include media-query-large {
-      background-image: url('/images/banner-image-mobile.jpg');
-    }
-
-    @include media-query-xlarge {
-      background-image: url('/images/banner-image-desktop.jpg');
-      height: $bannerHeight;
-      background-size: cover;
-    }
 
     &__wrapper {
       margin: auto;

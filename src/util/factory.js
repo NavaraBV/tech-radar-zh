@@ -326,7 +326,9 @@ const Factory = function () {
 
     const domainName = DomainName(window.location.search.substring(1))
 
-    const paramId = getDocumentOrSheetId()
+    const paramId = getDocumentOrSheetId() ?? 'files/radar.json'
+    console.log({paramId});
+    console.log()
     if (paramId && paramId.endsWith('.csv')) {
       sheet = CSVDocument(paramId)
       sheet.init().build()

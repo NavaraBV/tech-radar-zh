@@ -21,6 +21,22 @@
 
 :root {
   font-family: 'Inter', sans-serif;
+  --color-black: #0b1433;
+  --color-white: #fff;
+  --color-blue: #3665ff;
+  --color-blue-400: #5e84ff;
+  --color-blue-300: #86a3ff;
+  --color-blue-200: #afc1ff;
+  --color-blue-100: #d7e0ff;
+  --color-blue-50: #ebf0ff;
+  --color-blue-25: #f6f8ff;
+  --color-navy: #000b3b;
+  --color-navy-400: #333c62;
+  --color-navy-300: #666d89;
+  --color-navy-200: #999db1;
+  --color-navy-100: #ccced8;
+  --color-navy-50: #e6e7eb;
+  --color-navy-25: #f5f6f6;
 }
 
 @supports (font-variation-settings: normal) {
@@ -134,7 +150,7 @@
 
     .d3-tip:after {
       box-sizing: border-box;
-      font-size: 10px;
+      font-size: 16px;
       width: 100%;
       color: $wave;
       position: absolute;

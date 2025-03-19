@@ -3,6 +3,7 @@ const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 const cssnano = require('cssnano')
+const path = require('path')
 
 const common = require('./webpack.common.js')
 const config = require('./src/config')
@@ -71,4 +72,12 @@ module.exports = merge(common, {
     }),
   ],
   devtool: 'source-map',
+  devServer: {
+    hot: true,
+    liveReload: true,
+    static: {
+      directory: path.resolve(__dirname, 'spec/end_to_end_tests/resources/localfiles'),
+      publicPath: '/files'
+    }
+  }
 })
