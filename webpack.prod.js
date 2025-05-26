@@ -3,6 +3,7 @@ const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 const cssnano = require('cssnano')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const common = require('./webpack.common.js')
 const config = require('./src/config')
@@ -72,6 +73,14 @@ module.exports = merge(common, {
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.DefinePlugin({
       'process.env.ENVIRONMENT': JSON.stringify('production'),
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: 'spec/end_to_end_tests/resources/localfiles/radar.json',
+          to: 'radar.json',
+        },
+      ],
     }),
   ],
 })
