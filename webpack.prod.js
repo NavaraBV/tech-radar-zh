@@ -27,6 +27,9 @@ Object.entries(featureToggles).forEach(function ([key, value]) {
 module.exports = merge(common, {
   mode: 'production',
   entry: { main },
+  output: {
+    publicPath: '/tech-radar-zh', // Serve assets from the /tech-radar-zh to account for GitHub Pages
+  },
   performance: {
     hints: false,
   },
