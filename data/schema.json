@@ -1,0 +1,46 @@
+{
+  "type": "array",
+  "description": "The list of technologies in the technology radar.",
+  "title": "Technology Radar",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "required": [
+      "name",
+      "ring",
+      "quadrant",
+      "isNew",
+      "description"
+    ],
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "ring": {
+        "type": "string",
+        "enum": [
+          "adopteren",
+          "proberen",
+          "beoordelen",
+          "vasthouden"
+        ]
+      },
+      "quadrant": {
+        "type": "string",
+        "enum": [
+          "technieken",
+          "platformen",
+          "tools",
+          "talen-and-frameworks"
+        ]
+      },
+      "isNew": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    }
+  }
+}

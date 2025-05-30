@@ -77,7 +77,7 @@ module.exports = merge(common, {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: 'spec/end_to_end_tests/resources/localfiles/radar.json',
+          from: 'data/radar.json',
           to: 'files/radar.json',
         },
       ],
