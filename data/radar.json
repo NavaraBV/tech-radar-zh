@@ -1,9 +1,240 @@
 [
   {
+    "name": ".NET",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>.NET is a free, cross-platform, open-source developer platform for building many different types of applications. It provides a comprehensive set of libraries and tools for building web, desktop, mobile, cloud, and gaming applications.</p>"
+  },
+  {
+    "name": "Ansible",
+    "ring": "vasthouden",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p>Ansible is an open-source automation tool that automates software provisioning, configuration management, and application deployment. It uses a simple language (YAML) to describe automation jobs and is agentless, meaning it does not require any software to be installed on the target machines.</p>"
+  },
+  {
+    "name": "Angular",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Developed by Google, it provides a comprehensive solution for building dynamic web applications with a focus on performance and scalability.</p>"
+  },
+  {
+    "name": "Azure API Gateway",
+    "ring": "vasthouden",
+    "quadrant": "platformen",
+    "isNew": "FALSE",
+    "description": "<p>Azure API Gateway is a fully managed service that enables developers to create, publish, maintain, monitor, and secure APIs at any scale. It provides a unified front door for backend services, allowing developers to manage APIs effectively and securely.</p>"
+  },
+  {
+    "name": "Azure DevOps",
+    "ring": "vasthouden",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p>Azure DevOps is a set of development tools and services provided by Microsoft to support the entire software development lifecycle. It includes features for version control, project management, continuous integration, and continuous delivery (CI/CD), enabling teams to plan, develop, test, and deliver software more efficiently.</p>"
+  },
+  {
+    "name": "Cassandra",
+    "ring": "vasthouden",
+    "quadrant": "platformen",
+    "isNew": "FALSE",
+    "description": "<p>Cassandra is a highly scalable, distributed NoSQL database designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. It is known for its ability to handle large volumes of writes and its decentralized architecture.</p>"
+  },
+  {
+    "name": "C#",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>C# is a modern, object-oriented programming language developed by Microsoft as part of its .NET initiative. It is designed for building a wide range of applications, from web and mobile to desktop and cloud-based solutions.</p>"
+  },
+  {
+    "name": "Docker",
+    "ring": "vasthouden",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p>Docker is a platform for developing, shipping, and running applications in containers. It allows developers to package applications with all their dependencies into a standardized unit for software development.</p>"
+  },
+  {
+    "name": "Django",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It provides a robust set of features for building web applications, including an ORM, authentication, and an admin interface, making it easy to create complex web applications quickly.</p>"
+  },
+  {
+    "name": "DynamoDB",
+    "ring": "vasthouden",
+    "quadrant": "platformen",
+    "isNew": "FALSE",
+    "description": "<p>Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability. It is designed to handle large amounts of data and high request rates, making it suitable for applications that require low-latency data access.</p>"
+  },
+  {
+    "name": "FastAPI",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints. It is designed to create RESTful APIs quickly and efficiently, with automatic generation of OpenAPI documentation and support for asynchronous programming.</p>"
+  },
+  {
+    "name": "GitHub Copilot",
+    "ring": "vasthouden",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p>GitHub Copilot is an AI-powered code completion tool that helps developers write code faster and with fewer errors. It suggests whole lines or blocks of code as you type, based on the context of your code and comments.</p>"
+  },
+  {
+    "name": "GitLab",
+    "ring": "vasthouden",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p>GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features. It is used for version control and collaboration on software development projects.</p>"
+  },
+  {
+    "name": "Grafana",
+    "ring": "vasthouden",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p>Grafana is an open-source platform for monitoring and observability. It provides a powerful and flexible dashboarding solution for visualizing time series data from various sources, including Prometheus, InfluxDB, and Elasticsearch.</p>"
+  },
+  {
+    "name": "Java Spring Boot",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>Java Spring Boot is an extension of the Spring framework that simplifies the setup and development of new Spring applications. It provides a range of features to help developers create standalone, production-grade Spring-based applications with minimal configuration.</p>"
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "vasthouden",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p>Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications. It provides container orchestration to manage clusters of hosts running Linux containers.</p>"
+  },
+  {
+    "name": "Microsoft SQL",
+    "ring": "vasthouden",
+    "quadrant": "platformen",
+    "isNew": "FALSE",
+    "description": "<p>Microsoft SQL Server is a relational database management system developed by Microsoft. It is designed to handle a wide range of data workloads, from small applications to large enterprise solutions, and provides a comprehensive set of tools for data management, analysis, and reporting.</p>"
+  },
+  {
+    "name": "NestJS",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>NestJS is a progressive Node.js framework for building efficient, reliable and scalable server-side applications. It uses TypeScript by default and is heavily inspired by Angular, providing a modular architecture and dependency injection.</p>"
+  },
+  {
+    "name": "Nuxt.js",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>Nuxt.js is a framework for building server-rendered Vue.js applications. It provides a powerful set of features for building modern web applications, including server-side rendering, static site generation, and a modular architecture that allows developers to easily extend functionality.</p>"
+  },
+  {
+    "name": "OpenTofu",
+    "ring": "proberen",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "<p>OpenTofu is a community-driven fork of Terraform, an open-source infrastructure as code software tool. It provides a consistent CLI workflow to manage hundreds of cloud services. OpenTofu aims to maintain compatibility with Terraform while ensuring a fully open-source development process.</p>"
+  },
+  {
+    "name": "Oracle Cloud",
+    "ring": "vasthouden",
+    "quadrant": "platformen",
+    "isNew": "FALSE",
+    "description": "<p>Oracle Cloud is a cloud computing service offered by Oracle Corporation providing servers, storage, network, applications, and services through a global network of Oracle Corporation managed data centers. It offers a comprehensive suite of cloud services, including computing, storage, networking, database, and application services.</p>"
+  },
+  {
+    "name": "Oracle DB",
+    "ring": "vasthouden",
+    "quadrant": "platformen",
+    "isNew": "FALSE",
+    "description": "<p>Oracle Database is a multi-model database management system produced and marketed by Oracle Corporation. It is a powerful, enterprise-grade database that supports a wide range of data models, including relational, document, graph, and key-value data.</p>"
+  },
+  {
+    "name": "PostgreSQL",
+    "ring": "vasthouden",
+    "quadrant": "platformen",
+    "isNew": "FALSE",
+    "description": "<p>PostgreSQL is a powerful, open-source object-relational database system with more than 15 years of active development. It is known for its reliability, feature robustness, and performance.</p>"
+  },
+  {
+    "name": "Prometheus",
+    "ring": "vasthouden",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p>Prometheus is an open-source systems monitoring and alerting toolkit. It is designed for reliability and scalability, providing powerful querying capabilities and a multi-dimensional data model.</p>"
+  },
+  {
+    "name": "Python",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>Python is a high-level, interpreted programming language known for its readability and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.</p>"
+  },
+  {
+    "name": "React",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>React is a JavaScript library for building user interfaces, maintained by Facebook and a community of individual developers and companies. It allows developers to create large web applications that can change data, without reloading the page.</p>"
+  },
+  {
+    "name": "React Native",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>React Native is a framework for building native applications using React. It allows developers to use the same codebase for both iOS and Android applications, leveraging the power of React to create a smooth user experience.</p>"
+  },
+  {
+    "name": "Quarkus",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>Quarkus is a Kubernetes-native Java framework tailored for GraalVM and OpenJDK HotSpot. It is designed to optimize Java specifically for containers, making it an ideal choice for cloud-native applications. Quarkus provides a unified configuration, live reload, and a wide range of extensions to simplify development and deployment.</p>"
+  },
+  {
+    "name": "Snowflake",
+    "ring": "vasthouden",
+    "quadrant": "platformen",
+    "isNew": "FALSE",
+    "description": "<p>Snowflake is a cloud-based data warehousing service that provides a platform for data storage, processing, and analytics. It is designed to handle large volumes of data and offers features such as automatic scaling, high performance, and support for structured and semi-structured data.</p>"
+  },
+  {
     "name": "STACKIT Cloud",
     "ring": "proberen",
     "quadrant": "platformen",
     "isNew": "TRUE",
     "description": "<p>STACKIT is a cloud computing platform by the German retail group Schwarz Group. They offers managed services like object storage, kubernetes, block storage and databases. Besides the often offered managed services MySQL and Postgres, STACKIT also offers managed Redis, MongoDB, RabbitMQ and ELK (Elasticsearch, Logstash and Kibana). STACKIT currently operates two data centers, one in Germany and one in Austria.</p>"
+  },
+  {
+    "name": "Terraform",
+    "ring": "vasthouden",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p>Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. It allows users to define and provision data center infrastructure using a high-level configuration language.</p>"
+  },
+  {
+    "name": "TypeScript",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>TypeScript is a superset of JavaScript that compiles to plain JavaScript. It adds optional static typing to the language, which can help catch errors early in the development process and improve code quality and maintainability.</p>"
+  },
+  {
+    "name": "Vue.js",
+    "ring": "vasthouden",
+    "quadrant": "talen-and-frameworks",
+    "isNew": "FALSE",
+    "description": "<p>Vue.js is a progressive JavaScript framework for building user interfaces. It is designed to be incrementally adoptable, meaning that it can be used as a library to enhance existing applications or as a full-fledged framework for building complex single-page applications.</p>"
+  },
+  {
+    "name": "ZMQ",
+    "ring": "vasthouden",
+    "quadrant": "technieken",
+    "isNew": "FALSE",
+    "description": "<p>ZeroMQ (ZMQ) is a high-performance asynchronous messaging library aimed at use in scalable distributed or concurrent applications. It provides a message queue, but unlike traditional message brokers, it does not require a dedicated message broker server. Instead, it allows applications to communicate directly with each other using sockets, making it lightweight and fast.</p>"
   }
 ]
