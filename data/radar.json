@@ -210,6 +210,13 @@
     "description": "<p>STACKIT is a cloud computing platform by the German retail group Schwarz Group. They offers managed services like object storage, kubernetes, block storage and databases. Besides the often offered managed services MySQL and Postgres, STACKIT also offers managed Redis, MongoDB, RabbitMQ and ELK (Elasticsearch, Logstash and Kibana). STACKIT currently operates two data centers, one in Germany and one in Austria.</p>"
   },
   {
+    "name": "Hetzner Cloud",
+    "ring": "proberen",
+    "quadrant": "platformen",
+    "isNew": "TRUE",
+    "description": "<p>Hetzner Cloud is een betaalbare Europese cloudprovider met snelle SSD-servers en datacenters in Duitsland en Finland. Voordeel: lage kosten, goede performance, strikte EU-privacy. Nadeel: minder managed services en ecosysteem dan AWS, Azure of Google Cloud. Ideaal voor bedrijven die controle, eenvoud en GDPR-compliance belangrijker vinden dan schaal of integraties.</p>"
+  },
+  {
     "name": "Terraform",
     "ring": "vasthouden",
     "quadrant": "tools",
